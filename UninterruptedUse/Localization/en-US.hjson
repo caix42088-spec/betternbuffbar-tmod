@@ -1,0 +1,13 @@
+Mods: {
+    UninterruptedUse: {
+        Keybinds: {
+            ToggleProtection: {
+                DisplayName: Toggle uninterrupted item use
+            }
+        }
+        Messages: {
+            Enabled: "Uninterrupted item use: ON (release and press Use Item to activate)"
+            Disabled: "Uninterrupted item use: OFF (normal controls restored)"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+Mods: {
+    UninterruptedUse: {
+        Keybinds: {
+            ToggleProtection: {
+                DisplayName: 开关持续使用防误触
+            }
+        }
+        Messages: {
+            Enabled: "持续使用防误触：已开启（松开后重新按住使用键生效）"
+            Disabled: "持续使用防误触：已关闭（恢复原版操作）"
+        }
+    }
+}

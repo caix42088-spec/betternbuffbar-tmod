@@ -1,0 +1,4 @@
+displayName = Uninterrupted Use Isolated QA
+author = local validation
+version = 1.0.0
+side = Both

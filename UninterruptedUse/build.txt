@@ -1,0 +1,5 @@
+displayName = 持续使用防误触 UI
+author = 始源苹果
+version = 1.0.1
+side = Client
+buildIgnore = *.csproj, *.user, bin/*, obj/*, Properties/*, README.md

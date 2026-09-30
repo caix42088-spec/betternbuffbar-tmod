@@ -1,0 +1,118 @@
+PASS actual runtime hook installed: copyHookInstalled
+PASS actual runtime hook installed: updateHookInstalled
+PASS actual runtime hook installed: hotbarHookInstalled
+PASS cursor-carried usable item cannot activate attack protection
+PASS cursor item UI placement retains native input blocking
+PASS cursor-carried item blocks protection even with a hotbar slot selected
+PASS cursor-carried item does not suppress hotbar interaction clicks
+PASS native inventory click places a cursor-carried usable item into a slot
+PASS native inventory click picks the usable item back up
+PASS mapped drop command reaches native controls while holding a cursor item
+PASS native dropItemCheck successfully drops the cursor-carried usable item
+PASS fresh world press receives ordinary use input
+PASS 600 ticks of UI hover preserve mapped use input
+PASS real UI hover flag remains true
+PASS input fix does not synthesize repeated fresh clicks
+PASS item firing rules and stats unchanged
+PASS protected hover bypasses release lock predicate
+PASS explicit right-click cancels protection and preserves native UI blocking
+PASS release is effective before the next state update
+PASS release over UI stops protected use
+PASS ordinary UI release lock restored
+PASS a press that begins on UI does not attack
+PASS dragging off UI keeps native input without arming protection
+PASS UI-started press cannot acquire protection later
+PASS inventory immediately suspends protection
+PASS inventory cannot re-arm the same held press
+PASS inventory permits a new world press after release
+PASS full-screen map immediately suspends protection
+PASS full-screen map cannot re-arm the same held press
+PASS full-screen map permits a new world press after release
+PASS pause immediately suspends protection
+PASS pause cannot re-arm the same held press
+PASS pause permits a new world press after release
+PASS main menu immediately suspends protection
+PASS main menu cannot re-arm the same held press
+PASS main menu permits a new world press after release
+PASS options immediately suspends protection
+PASS options cannot re-arm the same held press
+PASS options permits a new world press after release
+PASS fancy UI immediately suspends protection
+PASS fancy UI cannot re-arm the same held press
+PASS fancy UI permits a new world press after release
+PASS chat immediately suspends protection
+PASS chat cannot re-arm the same held press
+PASS chat permits a new world press after release
+PASS sign editing immediately suspends protection
+PASS sign editing cannot re-arm the same held press
+PASS sign editing permits a new world press after release
+PASS chest editing immediately suspends protection
+PASS chest editing cannot re-arm the same held press
+PASS chest editing permits a new world press after release
+PASS input lock immediately suspends protection
+PASS input lock cannot re-arm the same held press
+PASS input lock permits a new world press after release
+PASS mouse lock immediately suspends protection
+PASS mouse lock cannot re-arm the same held press
+PASS mouse lock permits a new world press after release
+PASS consumed UI click immediately suspends protection
+PASS consumed UI click cannot re-arm the same held press
+PASS consumed UI click permits a new world press after release
+PASS text input immediately suspends protection
+PASS text input cannot re-arm the same held press
+PASS text input permits a new world press after release
+PASS lost focus immediately suspends protection
+PASS lost focus cannot re-arm the same held press
+PASS lost focus permits a new world press after release
+PASS NPC dialogue immediately suspends protection
+PASS NPC dialogue cannot re-arm the same held press
+PASS NPC dialogue permits a new world press after release
+PASS death immediately suspends protection
+PASS death cannot re-arm the same held press
+PASS death permits a new world press after release
+PASS ghost immediately suspends protection
+PASS ghost cannot re-arm the same held press
+PASS ghost permits a new world press after release
+PASS inactive player immediately suspends protection
+PASS inactive player cannot re-arm the same held press
+PASS inactive player permits a new world press after release
+PASS gamepad immediately suspends protection
+PASS gamepad cannot re-arm the same held press
+PASS gamepad permits a new world press after release
+PASS pre-existing release requirement is respected
+PASS mapped use action works independently of physical mouseLeft
+PASS remote players are unaffected
+PASS empty hand does not arm protection
+PASS entering a world with a held key cannot arm protection
+PASS hotbar receives no held click and global mouse state is restored
+PASS hotbar restores mouse state even if drawing throws
+PASS unprotected hotbar clicks reach native drawing unchanged
+PASS captured actual patched Player.Update hover block
+PASS native UI hover block does not latch a protected hold
+PASS native UI fix never clears an existing delay
+PASS unprotected native UI hover still sets the release requirement
+PASS native non-UI path remains unchanged
+PASS native non-auto-reuse weapon attacks only once during a held press
+PASS native non-auto-reuse weapon attacks again after release and press
+PASS native auto-reuse weapon repeats across sustained UI hover
+PASS native channeling starts from a world press
+PASS native channeling survives 120 ticks of UI hover
+PASS native channeling stops on release over UI
+PASS protection toggle keybind registered
+PASS protection toggle defaults to F8
+PASS disabling protection immediately restores native UI input handling
+PASS enabling protection does not capture an existing held click
+PASS new world press is protected after enabling
+PASS disabled preference survives saved-state round trip
+PASS characters without a saved preference default to enabled
+PASS registered keybind reaches ProcessTriggers and switches protection off
+PASS a held toggle does not flip the state again
+PASS next toggle press switches protection on
+PASS explicit item drop immediately suspends protection
+PASS explicit item drop cannot re-arm the same held press
+PASS explicit item drop permits a new world press after release
+PASS explicit right click immediately suspends protection
+PASS explicit right click cannot re-arm the same held press
+PASS explicit right click permits a new world press after release
+PASS unloading restores native UI input blocking
+PASS reloading installs working input hooks again
